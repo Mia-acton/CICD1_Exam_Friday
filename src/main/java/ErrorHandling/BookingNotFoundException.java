@@ -1,4 +1,4 @@
-package ErrorHandling;
+package com.example.cic1_lab_exam.ErrorHandling;
 
 public class BookingNotFoundException extends RuntimeException {
     private String msg;
