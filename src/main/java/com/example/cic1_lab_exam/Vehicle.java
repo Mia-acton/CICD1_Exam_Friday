@@ -9,10 +9,13 @@ import lombok.Data;
 public class Vehicle {
     @NotBlank
     private String driverName;
+
     @Pattern(regexp = "[0-9]{2,3}-[A-Z]{1,2}-[0,9]{1,6}")
     private String regNumber;
+
     @Email
     private String email;
+
     @Min(1)@Max(8)
     private int passengers;
 

@@ -9,5 +9,4 @@ class Cic1LabExamApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }

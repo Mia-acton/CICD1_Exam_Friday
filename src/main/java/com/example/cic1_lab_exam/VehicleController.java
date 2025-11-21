@@ -12,6 +12,7 @@ import java.util.Optional;
 @ControllerAdvice
 public class VehicleController {
     private final VehicleService service;
+
     public VehicleController(VehicleService service) {
         this.service = service;
     }
