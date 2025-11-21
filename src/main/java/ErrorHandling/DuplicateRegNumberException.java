@@ -1,4 +1,4 @@
-package ErrorHandling;
+package com.example.cic1_lab_exam.ErrorHandling;
 
 public class DuplicateRegNumberException extends RuntimeException {
     private String msg;
